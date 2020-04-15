@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "gatsby-ts-jest-sass",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "A Gastby starter template with Typescript, Jest, Sass and Bootstrap",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Jack McGregor",
   "dependencies": {
     "babel-preset-gatsby": "^0.3.1",
     "bootstrap": "^4.4.1",
@@ -61,7 +61,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/j-mcgregor/gatsby-ts-jest-sass"
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
