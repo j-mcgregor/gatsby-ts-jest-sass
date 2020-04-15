@@ -7,7 +7,8 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Header from "./header"
-import "./layout.css"
+
+import "bootstrap/dist/css/bootstrap.min.css"
 import "../stylesheets/main.scss"
 
 const Layout: React.SFC<{}> = ({ children }) => {
