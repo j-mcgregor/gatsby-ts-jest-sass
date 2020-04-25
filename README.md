@@ -27,10 +27,22 @@ yarn serve
 ### 1. Setup
 
 -   `gatsby cli` installation
+-   VSCode extensions
+    -   Bracket pair coloriser
+    -   Color Highlight
+    -   ES7 React... snippets
+    -   ESLint
+    -   GraphQL
+    -   Jest snippets
+    -   prettier
+    -   React extensions
+    -   React hooks snippets
+    -   vscode-styled-component
 -   Prettier and ESLint
 -   Typescript
 -   Jest
 -   Sass-node and bootstrap / flexbox-gridd
+-   Husky
 
 ### 2. Pipeline
 
