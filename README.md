@@ -36,3 +36,6 @@ yarn serve
 
 -   CircleCI (cloud) vs Jenkins (local with Docker)
 -   SonarCloud (cloud) vs SonarQube (local with Docker)
+    -   `name=SONAR_TOKEN` and `value=<SONAR_KEY>` must be set
+    -   follow set up from Administration > Analysis Method > CircleCI 'Follow the tutorial'
+    -   in CircleCI project page, find Project Settings > Environment Variables and copy past the name and value
