@@ -56,7 +56,10 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "jest"
+    "test": "jest",
+    "test:cover": "npm run test -- --coverage ",
+    "test:watch": "jest --watchAll",
+    "lint": "eslint '*/**/*.{js,ts,tsx}' --quiet --fix"
   },
   "repository": {
     "type": "git",

@@ -1,0 +1,5 @@
+**/__snapshots__/*
+**/__mocks__/*
+**/node_modules/*
+**/dist/*
+**/coverage/*
