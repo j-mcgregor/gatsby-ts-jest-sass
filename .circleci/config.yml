@@ -5,7 +5,7 @@ jobs:
     build:
         working_directory: ~/gatsby-ts-jest-sass
         docker:
-            - image: circleci/node:12
+            - image: circleci/node:10
         steps:
             - checkout
             - run:
