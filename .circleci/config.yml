@@ -25,7 +25,7 @@ jobs:
                   command: npm run lint
             - run:
                   name: test
-                  command: npm run test:cover
+                  command: npm run test:cover -updateSnapshot
             - store_artifacts:
                   path: coverage
                   prefix: coverage
