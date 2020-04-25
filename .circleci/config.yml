@@ -5,7 +5,7 @@ jobs:
     build:
         working_directory: ~/gatsby-ts-jest-sass
         docker:
-            - image: circleci/node:10
+            - image: circleci/node:10.16.3
         steps:
             - checkout
             - run:
@@ -14,7 +14,7 @@ jobs:
             - restore_cache:
                   key: dependency-cache-{{ checksum "package-lock.json" }}
             - run:
-                  name: install
+                  name: install-npm-wee
                   command: npm install
             - save_cache:
                   key: dependency-cache-{{ checksum "package-lock.json" }}
