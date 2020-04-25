@@ -1,11 +1,11 @@
-import { Link } from "gatsby"
-import React from "react"
+import { Link } from 'gatsby'
+import React from 'react'
 
-type HeaderProps = {
+interface HeaderProps {
     siteTitle?: string
 }
 
-const Header: React.SFC<HeaderProps> = ({ siteTitle }) => (
+const Header: React.SFC<HeaderProps> = ({ siteTitle = '' }) => (
     <header
         style={{
             background: `rebeccapurple`,
@@ -33,7 +33,5 @@ const Header: React.SFC<HeaderProps> = ({ siteTitle }) => (
         </div>
     </header>
 )
-Header.defaultProps = {
-    siteTitle: ``,
-}
+
 export default Header
