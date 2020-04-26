@@ -60,12 +60,13 @@
     "test": "jest",
     "test:cover": "npm run test -- --coverage ",
     "test:watch": "jest --watchAll",
-    "lint": "eslint '*/**/*.{js,ts,tsx}' --quiet --fix"
+    "lint": "eslint '*/**/*.{js,ts,tsx}' --quiet --fix",
+    "husky": "npm run lint && npm run test"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm test",
-      "pre-push": "npm test"
+      "pre-commit": "npm run husky",
+      "pre-push": "npm run husky"
     }
   },
   "repository": {
