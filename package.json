@@ -66,8 +66,7 @@
   "husky": {
     "hooks": {
       "pre-commit": "npm run husky",
-      "pre-push": "npm run husky",
-      "commit-msg": "echo $HUSKY_GIT_PARAMS"
+      "pre-push": "npm run husky"
     }
   },
   "repository": {
