@@ -50,3 +50,4 @@ yarn serve
 -   SonarCloud (cloud) vs SonarQube (local with Docker)
     -   `name=SONAR_TOKEN` and `value=<SONAR_KEY>` must be set
     -   follow set up from Administration > Analysis Method > CircleCI 'Follow the tutorial'
+    -   In order to run with Circle CI, Automatic Analysis must be turned off
