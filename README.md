@@ -3,24 +3,28 @@
 _Setup_
 
 ```bash
-yarn # to install dependencies
+npm i # to install dependencies
 
-yarn start # runs gatsby develop
+npm start # runs gatsby develop
 ```
 
 _Test_
 
 ```bash
-yarn test
+npm test
 ```
 
 _build_
 
 ```bash
-yarn build
+npm run build # runs 'gatsby clean && gatsby build'
 
-yarn serve
+npm run serve
 ```
+
+## Architecture
+
+![Workflow](./src/images/Workflow.png)
 
 ## Steps
 
